@@ -14,7 +14,7 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <Hello/> */}
-    <Counter initialValue={0}/>
+    <Counter initialValue={1}/>
   </React.StrictMode>
 );
 
