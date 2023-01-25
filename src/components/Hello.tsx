@@ -7,6 +7,7 @@ const Hello = () => {
   return (
     <div onClick={onClick}>
       {text}
+      <a href="" className="nnn">ggg</a>
     </div>
   )
 }
