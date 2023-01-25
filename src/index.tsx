@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 // import Hello from './components/Hello';
-import Message from './components/Message';
+// import Message from './components/Message';
+import Counter from './components/Counter';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -13,7 +14,7 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <Hello/> */}
-    <Message/>
+    <Counter initialValue={0}/>
   </React.StrictMode>
 );
 
