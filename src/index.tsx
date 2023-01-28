@@ -5,7 +5,8 @@ import './index.css';
 // import Hello from './components/Hello';
 // import Message from './components/Message';
 // import Counter from './components/Counter';
-import Parent from './components/Parent';
+// import Parent from './components/Parent';
+import Memoo from './components/Memo';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -15,7 +16,8 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <Hello/> */}
-    <Parent/>
+    {/* <Parent/> */}
+    <Memoo/>
   </React.StrictMode>
 );
 
